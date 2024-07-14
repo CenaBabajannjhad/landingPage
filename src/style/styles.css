@@ -1,0 +1,14 @@
+:root{
+    --darkGreen : #1d674a;
+    --darkGreenTwo : #006640;
+    --black : #000;
+    --white : #fff;
+    --cyan : #0bcbfb;
+    --lightGreen : #8ffca0;
+}
+/* uni styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
