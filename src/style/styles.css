@@ -56,6 +56,7 @@
 .company-name {
   color: var(--darkGreen);
   font-weight: 600;
+  font-family: "Mostserrat-regular";
 }
 /* navbar container styles */
 .navbar-container {
@@ -65,19 +66,20 @@
 .navbar-container > li {
   padding: 0px 15px;
   color: var(--darkGreen);
-  font-weight: 600;
+  font-family: "Gotham-bold";
 }
 .navbar-container > li:hover {
   cursor: pointer;
 }
 .child2 {
-  margin-left: 25px;
+  margin-left: 30px;
 }
 .home {
   color: var(--white) !important;
   background: var(--darkGreenTwo);
-  padding: 5px 10px !important;
+  padding: 5px 13px !important;
   border-radius: 20px;
+  font-family: "Mostserrat-regular" !important;
 }
 .home:hover {
   cursor: pointer;
@@ -120,11 +122,15 @@
   margin-right: 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
   border: solid 1px black;
 }
 .text-section-container {
   text-align: center;
+  width: 100%;
+  border: solid 1px black;
+}
+.text-container {
+  /* line-height: 4.7rem; */
   border: solid 1px black;
 }
 /* text special */
@@ -132,15 +138,18 @@
   font-size: 1.5rem;
   letter-spacing: 25px;
   color: var(--black);
+  font-family: "Gotham-bold";
 }
 /* new text */
 .text-new {
-  font-size: 5rem;
+  font-size: 9rem;
+  font-family: "bebasNeue-bold";
   color: var(--darkGreen);
 }
 /* home text */
 .text-home {
-  letter-spacing: 10px;
+  letter-spacing: 20px;
+  font-family: "Gotham-book";
 }
 /* shop button */
 .shop-button-conatainer {
@@ -151,6 +160,7 @@
   border: none;
   padding: 10px 25px;
   font-size: 1.3rem;
+  font-family: "Gotham-medium";
   border-radius: 10px;
   box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.163);
   color: var(--darkGreen);
